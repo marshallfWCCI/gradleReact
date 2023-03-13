@@ -6,7 +6,7 @@ import FriendList from './FriendList.jsx';
 function Main() {
     return (
         <div id="main">
-            <FriendList />
+            <FriendList memo="This is a memo"/>
         </div>
     )
 }
